@@ -29,6 +29,12 @@ body {
     background-color: #edf3fd;
     animation: fadeIn 1s ease-out;
 }
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box; /* Ensure consistent box-sizing */
+}
 
 h1 {
     width: 100%;
